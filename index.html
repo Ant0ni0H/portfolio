@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Huayhua Melone | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="content-hamburger">
+        <img src="icons/menu.png" alt="" id="hamburger">
+    </div>
+    <header>
+
+        <a href="#inicio" class="logo">ahm.</a>
+
+        <input type="checkbox" id="check">
+        <label for="check">
+            <img src="media/menu.png" alt="" class="menu" id="hamburger">
+            <img src="media/close.png" alt="" class="menu" id="close">
+        </label>
+
+        <nav>
+            <a href="#inicio">
+                <button class="button-menu">
+                    Home
+                </button>
+            </a>
+        
+            <a href="#sobre-mi" class="navhover">About me</a>
+            <a href="#proyectos" class="navhover">Projects</a>
+            <a href="#herramientas" class="navhover">Tools</a>
+
+        </nav>
+    </header>
+
+
+    <div class="start" id="inicio">
+        <div class="content-text">
+            <h1 id="title">Hello! <br> I'm Antonio👋</h1>
+            <h3 id="subtitle">Frontend Developer</h3>
+           <p>I transform ideas into functional and adaptable pages.</p>
+        </div>
+        <div class="content-icons">
+            <div class="content-icons-up">
+                <img src="icons/html.svg" alt="" class="icons">
+                <img src="icons/css.svg" alt="" class="icons">
+                <img src="icons/javascript.svg" alt="" class="icons">
+            </div>
+            <div class="content-icons-down">
+                <img src="icons/bootstrap.svg" alt="" class="icons">
+                <img src="icons/figma.svg" alt="" class="icons">
+            </div>     
+        </div>
+    </div>
+
+
+    
+
+    <div class="first-line" id="sobre-mi">
+        <h1>About me</h1>
+        <p>My name is Antonio Melone, I am 20 years old and I am from Argentina. I have been learning HTML, CSS, 
+            and JavaScript on my own since I was 16, through courses and YouTube videos. Additionally,
+             I have knowledge of Bootstrap as a CSS framework and Figma for creating mockups.</p>
+    </div>
+
+
+    <div class="proyectos">
+        <h1 id="proyectos">Projects!</h1>
+            <div class="cartas">
+                <div class="card">
+                    <img src="media/canillita.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Canillita</h5>
+                    <p class="card-text">Prototype for a specialty coffee shop, designed with content extracted from its Instagram to highlight its visual identity.</p>
+                    <a href="https://ant0ni0h.github.io/canillita/" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/ferrara.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Ferrara</h5>
+                    <p class="card-text">Website prototype for a coffee shop, designed and developed to practice responsive design and user experience optimization. It includes a carousel and a design adapted for mobile devices.</p>
+                    <a href="https://ant0ni0h.github.io/ferrara/" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/calculator.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Calculator</h5>
+                    <p class="card-text">App to perform basic operations with a minimalist design and clear results. </p>
+                    <a href="https://ant0ni0h.github.io/calculator/" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/password.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Password generator</h5>
+                    <p class="card-text">Generates secure alphanumeric passwords and allows you to copy them with a click.</p>
+                    <a href="https://ant0ni0h.github.io/password/" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+    <div class="bootstrap">
+        <h1><img src="icons/bootstrap.svg" alt="" class="iconss">ootstrap </h1>
+        <p>Favorite Frontend framework, specialized in carousels, navbars, and cards.
+        </p>
+    </div>
+
+    <div class="figma">
+        <h1><img src="icons/figma.svg" alt="" class="iconss">igma</h1>
+        <p>Key tool for designing mockups and pages for clients.
+        </p>
+    </div>
+
+
+    <!--CARRUSEL DE MOCKUPS-->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="media/compu5.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="media/compu5a.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="media/compu5c.jpg" class="d-block" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="herramientas" id="herramientas">
+        <h1>Tools</h1>
+        <h2>Spline 3D</h2>
+        <p>Spline is a practical tool for creating 3D models easily and quickly, ideal for prototypes or web designs.
+        </p>
+        <h2>Mockups-design.com</h2>
+        <p>I used this website to create free mockups, editing them with Photoshop to show how a page will look on different devices.
+        </p>
+
+        <h2>Photoshop</h2>
+        <p>Adobe Photoshop, a globally recognized tool, I primarily use it for mockups. I have general knowledge, but I am in the process of learning more about it.
+        </p>
+        </p>
+    </div>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="formulario">
+            <div class="contact-title">
+                <h1>Let's talk!</h1>
+            </div>
+            <input type="hidden" name="access_key" value="41658bbf-8c45-4e46-9cad-a59d9bb87d60">
+            <input type="text" name="name" placeholder="Your name..." class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your email..." class="contact-inputs" required>
+            <textarea name="message" placeholder="Message..." class="contact-inputs" required></textarea>
+            <button type="submit" class="btn-form">Send!</button>
+            
+        </form>
+
+        <div class="content-gif">
+            <img src="media/typing.gif" alt="" class="gif">
+        </div>
+    </div>
+
+    <div class="last-footer">
+        <div class="last-footer-real">
+            <span>
+                <p class="last-footer-real-real">Done with 🤍</p>
+                <p class="last-footer-real-real">By: Antonio Melone 😁</p>
+            </span>           
+        </div>       
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
